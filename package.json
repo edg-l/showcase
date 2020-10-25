@@ -1,0 +1,25 @@
+{
+  "name": "showcase",
+  "version": "1.0.0",
+  "description": "A showcase of various websites/forms/etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edg-l/showcase.git"
+  },
+  "keywords": [
+    "showcase",
+    "web",
+    "forms",
+    "tailwindcss"
+  ],
+  "author": "Edgar Luque",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/edg-l/showcase/issues"
+  },
+  "homepage": "https://github.com/edg-l/showcase#readme"
+}
