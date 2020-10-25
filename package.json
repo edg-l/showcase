@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build:css": "npx tailwindcss build tailwind.css -o docs/styles.css",
+    "build": "npm run build:css",
+    "serve": "npx serve docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,5 +27,8 @@
   "homepage": "https://github.com/edg-l/showcase#readme",
   "dependencies": {
     "tailwindcss": "^1.9.6"
+  },
+  "devDependencies": {
+    "serve": "^11.3.2"
   }
 }
