@@ -4,6 +4,7 @@
   "description": "A showcase of various websites/forms/etc",
   "main": "index.js",
   "scripts": {
+    "build:css": "npx tailwindcss build tailwind.css -o docs/styles.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/edg-l/showcase/issues"
   },
-  "homepage": "https://github.com/edg-l/showcase#readme"
+  "homepage": "https://github.com/edg-l/showcase#readme",
+  "dependencies": {
+    "tailwindcss": "^1.9.6"
+  }
 }
