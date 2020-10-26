@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en" class="h-screen max-h-screen">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A showcase of webs, forms, etc.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, tailwindcss">
+    <meta name="author" content="Edgar Luque">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Showcase | Edgar Luque</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Montserrat:ital,wght@0,300;0,400;0,700;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="md:container bg-background lg:mx-auto h-screen max-h-screen">
+    <div class="flex align-middle justify-center h-full max-h-full">
+        <div class="shadow p-10 w-full md:max-w-md self-center -mt-16 lg:rounded">
+            <form>
+                <label class="text-secondary font-bold" for="username">Username</label>
+                <input
+                    class="w-full rounded border-2 border-secondary hover:border-primary focus:border-primary my-1 px-2 py-1"
+                    type="text" id="username" name="username" placeholder="JohnDoe">
+
+                <label class="text-secondary font-bold" for="password">Password</label>
+                <input
+                    class="w-full rounded border-2 border-secondary hover:border-primary focus:border-primary my-1 px-2 py-1"
+                    type="password" id="password" name="password">
+
+                <button type="submit"
+                    class="bg-secondary hover:bg-primary rounded py-2 text-white w-full font-bold mt-4">Login</button>
+                <p class="text-gray-600 mt-2 text-center">Not registered? <a class="text-primary hover:underline" href="register.html">Create an account</a></p>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
